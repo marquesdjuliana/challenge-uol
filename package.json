@@ -1,0 +1,22 @@
+{
+  "name": "uol",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "install:front": "cd ./app/frontend && npm install",
+    "install:back": "cd ./app/backend && npm install",
+    "install:apps": "npm run install:front && npm run install:back",
+    "compose:up": "cd ./app/backend && docker-compose up -d --build",
+    "compose:down": "cd ./app/backend && docker-compose down",
+    "logs": "cd app && docker-compose logs -f"
+  },
+  "author": "Juliana Marques",
+  "devDependencies": {
+    "axios": "0.26.0",
+    "mysql2": "2.3.3",
+    "nyc": "15.1.0",
+    "sequelize": "6.25.5",
+    "sequelize-cli": "6.4.1"
+  }
+}

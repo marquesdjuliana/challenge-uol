@@ -1,0 +1,61 @@
+#home-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
+
+#home-content {
+  width: 50%;
+  background-color: white;
+}
+
+#home-section {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 20px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+}
+
+#home-titles-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#home-title {
+  margin-bottom: 6px;
+  color: gray;
+}
+
+#home-subtitle {
+  color: gray;
+}
+
+#count-clients {
+  color: gray;
+}
+
+#newClient-button {
+  background-color: rgb(226 153 51);
+  width: 100px;
+  height: 30px;
+  color: white;
+  border: none;
+  outline: none;
+  border-radius: 4px;
+  cursor: pointer;
+
+  &:hover {
+    background-color: white;
+    color: rgb(226 153 51);
+    border: 1px solid rgb(226 153 51);
+  }
+}
+
+#users-list-container {
+  max-height: 400px;
+  overflow-y: auto;
+}
