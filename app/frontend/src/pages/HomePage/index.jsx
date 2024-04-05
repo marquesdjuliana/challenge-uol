@@ -37,6 +37,7 @@ function HomePage() {
     fetchClients();
   }, []);
 
+  //teste
   return (
     <div id="home-container">
       <div id="home-content">
