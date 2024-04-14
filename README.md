@@ -1,21 +1,19 @@
-# Teste Fullstack: Aplicativo de Gerenciamento de Clientes
+#Aplicação Full Stack de Gerenciamento de Clientes
 
 ## Descrição:
 
-O aplicativo fullstack permite aos usuários visualizar, criar e editar clientes. O aplicativo consiste em duas partes: o frontend e o backend. O frontend é responsável pela interface do usuário e a comunicação com a API. O backend é responsável pelo armazenamento e gerenciamento dos dados dos clientes.
+Esta aplicação permite aos usuários visualizar, criar e editar clientes. A aplicação consiste em duas partes: o frontend e o backend. O frontend é responsável pela interface do usuário e a comunicação com a API. O backend é responsável pelo armazenamento e gerenciamento dos dados dos clientes.
 
 ## Requisitos do Frontend:
 
-1. Exibir uma listagem de clientes contendo todas as informações conforme o layout fornecido.
-2. Permitir a criação de um novo cliente através de um formulário.
-3. Na tela de edição, fornecer alertas para o usuário em caso de dados inválidos.
-4. Realizar validação de CPF e telefone na tela de edição para garantir dados corretos e consistentes.
-5. Comunicar-se com a API para obter os dados dos clientes cadastrados.
+1. Exibe uma lista com todas as informações dos clientes.
+2. Possibilita cadastro de um novo cliente.
+3. Oferece opção de editar dados de um cliente, usa alertas para dados inválidos. 
+4. Valida os dados (CPF e telefone) para garantir dados corretos e consistentes. 
 
 ## Requisitos do Backend:
 
 Criar uma API que ofereça endpoints para:
-
 1. Obter a listagem de clientes cadastrados.
 2. Cadastrar um novo cliente com informações válidas.
 3. Atualizar informações de cliente existente.
