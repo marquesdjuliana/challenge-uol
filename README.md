@@ -1,25 +1,37 @@
-#Aplicação Full Stack de Gerenciamento de Clientes
+## Aplicação Full Stack de Gerenciamento de Clientes
 
-## Descrição:
 
+### Descrição:
 Esta aplicação permite aos usuários visualizar, criar e editar clientes. A aplicação consiste em duas partes: o frontend e o backend. O frontend é responsável pela interface do usuário e a comunicação com a API. O backend é responsável pelo armazenamento e gerenciamento dos dados dos clientes.
 
-## Requisitos do Frontend:
+-----------------
 
-1. Exibe uma lista com todas as informações dos clientes.
-2. Possibilita cadastro de um novo cliente.
-3. Oferece opção de editar dados de um cliente, usa alertas para dados inválidos. 
-4. Valida os dados (CPF e telefone) para garantir dados corretos e consistentes. 
+### Requisitos do Frontend:
 
-## Requisitos do Backend:
+1. Exibir Lista de Clientes:<br>
+A aplicação deve exibir uma lista contendo todas as informações dos clientes cadastrados.
 
-Criar uma API que ofereça endpoints para:
+2. Cadastro de Novo Cliente:<br>
+Deve ser possível cadastrar um novo cliente através de um formulário de entrada.
+
+3. Edição de Dados do Cliente:<br>
+A aplicação deve oferecer a funcionalidade de editar os dados de um cliente já cadastrado, exibindo alertas em caso de dados inválidos.
+
+4. Validação de Dados:<br>
+Todos os dados inseridos, especialmente CPF e telefone, devem ser validados para garantir a integridade e consistência dos dados.
+
+
+### Requisitos do Backend:
+
+Endpoints da API - o backend fornece endpoints para as seguintes operações:
 1. Obter a listagem de clientes cadastrados.
 2. Cadastrar um novo cliente com informações válidas.
 3. Atualizar informações de cliente existente.
-4. Armazenar os dados do cliente de forma persistente.
+4. Armazenar os dados do cliente de forma persistente no banco de dados.
 
-## Tecnologias utilizadas:
+------------
+
+### Tecnologias utilizadas:
 
  **Backend:** 
   Node.js
@@ -38,11 +50,12 @@ Criar uma API que ofereça endpoints para:
   Axios
   Vite
 
+------------
 
-## Instalação do projeto
+### Instalação do projeto
 
-### Instalação com o Docker:
-Certifique-se de ter o Docker instalado em sua máquina.
+#### Instalação com o Docker:
+Certifique-se de ter o Docker instalado em sua máquina. <br>
 No diretório raiz do projeto, execute o seguinte comando para iniciar os contêineres Docker:
 
 0. Certifique-se que esteja no diretório App:
@@ -72,7 +85,10 @@ npm prestart
 
 3. Acesse a aplicação no seu navegador em http://localhost:3000.
 
-### Instalação sem o Docker
+------------
+
+
+#### Instalação sem o Docker
 Para instalar e executar o projeto sem o Docker, siga os passos abaixo:
 
 0. Certifique-se que esteja no diretório App:
