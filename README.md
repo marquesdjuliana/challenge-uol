@@ -66,7 +66,7 @@ No diretório raiz do projeto, execute o seguinte comando para iniciar os contê
 
 1. Certifique-se que esteja no diretório App:
 ```sh
-cd app/
+cd client_manager_uol/
 ```
 
 2. No diretório app execute serviços do Docker (ao iniciar o docker as depências já serão instaladas):
@@ -77,7 +77,7 @@ npm run compose:up
 
 Acesse o diretório do backend:
 ```sh
-cd backend
+cd app/backend
 ```
 Execute o comando para acessar o bash:
 ```sh
