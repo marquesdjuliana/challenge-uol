@@ -56,18 +56,24 @@ Endpoints da API - o backend fornece endpoints para as seguintes operações:
 
 #### Instalação com o Docker:
 Certifique-se de ter o Docker instalado em sua máquina. <br>
+
+0. Clone o projeto:
+```sh
+git clone git@github.com:marquesdjuliana/client_manager_uol
+```
+
 No diretório raiz do projeto, execute o seguinte comando para iniciar os contêineres Docker:
 
-0. Certifique-se que esteja no diretório App:
+1. Certifique-se que esteja no diretório App:
 ```sh
 cd app/
 ```
 
-1. No diretório app execute serviços do Docker (ao iniciar o docker as depências já serão instaladas):
+2. No diretório app execute serviços do Docker (ao iniciar o docker as depências já serão instaladas):
 ```sh
 npm run compose:up
 ```
-2. Com os containers inciados acesse o container app_backend e popule o banco:
+3. Com os containers inciados acesse o container app_backend e popule o banco:
 
 Acesse o diretório do backend:
 ```sh
@@ -80,7 +86,7 @@ docker exec -it app_backend sh
 
 No bash execute o comando:
 ```sh
-npm prestart 
+npm run prestart 
 ```
 
 3. Acesse a aplicação no seu navegador em http://localhost:3000.
