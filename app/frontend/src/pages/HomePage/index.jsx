@@ -62,4 +62,3 @@ function HomePage() {
 }
 
 export default HomePage;
-HomePage.js
