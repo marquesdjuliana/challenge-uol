@@ -6,11 +6,11 @@ const api = axios.create({
 
 const errorMessages = {
   '"name" length must be at least 8 characters long': 'O nome deve ter pelo menos 8 caracteres.',
-  '"cpf" length must be at least 11 characters long': 'O CPF deve ter pelo menos 11 caracteres.',
-  '"telephone" length must be at least 11 characters long': 'O telefone deve ter pelo menos 11 caracteres.',
+  '"cpf" length must be at least 11 characters long': 'O CPF deve ter 11 caracteres.',
+  '"telephone" length must be at least 11 characters long': 'O número de telefone deve ter 11 caracteres.',
   'Invalid CPF': 'CPF inválido.',
-  'Invalid phone number':'O número de telefone inválido.',
-  '"status" must be one of [ativo, inativo, aguardando_ativacao, desativado]': 'O status deve ser um dos seguintes: Ativo, Inativo, Aguardando ativação, Desativado.',
+  'Invalid phone number':'O número de telefone é inválido.',
+  '"status" must be one of [ativo, inativo, aguardando_ativacao, desativado]': 'Defina um status: Ativo, Inativo, Aguardando ativação ou Desativado.',
   'User already registered with this E-mail': 'Este e-mail já está registrado.',
 };
 
